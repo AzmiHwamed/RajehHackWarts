@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/podcat"
+        android:title="PodCasts\nبودكاست"
+        android:icon="@drawable/podcast" />
+    <item
+        android:id="@+id/game"
+        android:title="Games\nألعاب"
+        android:icon="@drawable/game" />
+    <!-- Add more items as needed -->
+</menu>

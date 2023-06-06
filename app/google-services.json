@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "862316172585",
+    "project_id": "rajeh-e7f7e",
+    "storage_bucket": "rajeh-e7f7e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862316172585:android:7396d879f6a278cd00d338",
+        "android_client_info": {
+          "package_name": "com.example.rajah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862316172585-b2clbet3moaol44sl74k7ldq41kuqtcs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqrzzeq9IQn7PjnMJanlOdDiNkazga6Xk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862316172585-b2clbet3moaol44sl74k7ldq41kuqtcs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

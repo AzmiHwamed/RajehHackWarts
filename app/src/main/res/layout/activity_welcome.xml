@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Welcome"
+    android:background="#64FAFE">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+
+        android:src="@drawable/logo"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Welcome to Rajeh, an interactive app for children that promotes critical thinking and Arabic language skills. Explore engaging podcasts, interactive games, and parental controls to ensure a balanced screen time experience. Join a vibrant community of young Arab learners and take part in exciting events. Let's inspire curiosity and learning together with Rajeh! "
+        android:textColor="#FFF"
+        app:layout_constraintTop_toBottomOf="@+id/logo"
+        android:layout_marginBottom="50dp"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="مرحبًا بك في راجح، تطبيق تفاعلي مصمم خصيصًا للأطفال لتعزيز التفكير النقدي وتعليم مهارات البحث والتحقق. يوفر راجح تجربة تعلم شيقة من خلال مجموعة متنوعة من البودكاست باللغة العربية والألعاب التفاعلية. يمكن للأهل أن يشاركوا بنشاط في رحلة التعلم من خلال السيطرة على وقت استخدام الشاشة والمشاركة الفعالة في تجربة الطفل. بالإضافة إلى ذلك، يهدف راجح إلى خلق مجتمع نشط من الأطفال العرب المستمعين، حيث يتيح التواصل وتنظيم الفعاليات المثيرة لتعزيز تجربتهم. انضم إلينا في بناء جيل من العقول الفضولية والمتعلمين المستمرين من خلال راجح!"
+        android:textColor="#FFF"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Explore\nإستكشف "
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:layout_editor_absoluteX="20dp"
+        android:id="@+id/btn"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
